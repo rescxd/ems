@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c0c3082-70c1-40d1-ad65-6300f7ceff00" name="Changes" comment="c">
+      <change afterPath="$PROJECT_DIR$/public/Polityka-prywatnosci.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Polityka-ujawniania-podatnosci.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Polityka-wsparcia.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/customers/customer6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/forWhom/type1Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/forWhom/type2Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pages/home/forWhom/type3Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/forwho/security/Security.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pages/home/about/aboutImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pages/home/about/aboutImage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pages/home/header/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pages/home/header/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/pages/home/header/owner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/pages/home/header/owner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/footer/bottom/Bottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/footer/bottom/Bottom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/footer/form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/footer/form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/footer/form/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/footer/form/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/about/top/Top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/about/top/Top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/customers/top/CustomersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/customers/top/CustomersList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/forwho/ForWho.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/forwho/ForWho.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Customers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Installers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Installers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Wholesale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/forwho/top/types/Wholesale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/header/Header.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="85" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Xanarox1337&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Xanarox1337/ems.house.git&quot;,
+    &quot;accountId&quot;: &quot;69b2272d-119d-4479-8fb7-4f1119c6ae3b&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3AxF5Sc6OFbu872wIlFStt5Q0ai" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/dawid/WebstormProjects/ems.house/src/assets/pages/home/customers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\dawid\\WebstormProjects\\ems.house\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.general",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\dawid\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1777140019409" />
+    <option name="spentUsd" value="0.01249025" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\src\assets\pages\home\customers" />
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\public" />
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\src\assets\pages\home\forWhom" />
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\src\assets\pages\home\about" />
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\src\assets\pages\home\header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dawid\WebstormProjects\ems.house\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c0c3082-70c1-40d1-ad65-6300f7ceff00" name="Changes" comment="" />
+      <created>1773526130113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773526130113</updated>
+      <workItem from="1773526131115" duration="1385000" />
+      <workItem from="1773622530104" duration="34000" />
+      <workItem from="1773622565696" duration="15000" />
+      <workItem from="1773622582998" duration="39000" />
+      <workItem from="1773666887478" duration="2000" />
+      <workItem from="1773668848727" duration="40000" />
+      <workItem from="1773691171160" duration="1852000" />
+      <workItem from="1773697166834" duration="390000" />
+      <workItem from="1773698373693" duration="9000" />
+      <workItem from="1773698385081" duration="5175000" />
+      <workItem from="1773777610805" duration="5235000" />
+      <workItem from="1773856645471" duration="7000" />
+      <workItem from="1774293957170" duration="77000" />
+      <workItem from="1775243781554" duration="324000" />
+      <workItem from="1776107074510" duration="5203000" />
+      <workItem from="1776180413544" duration="3000" />
+      <workItem from="1776180920000" duration="13000" />
+      <workItem from="1776360994475" duration="2944000" />
+    </task>
+    <task id="LOCAL-00001" summary="c">
+      <option name="closed" value="true" />
+      <created>1773698194403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773698194403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="c">
+      <option name="closed" value="true" />
+      <created>1773698360372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773698360372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="c">
+      <option name="closed" value="true" />
+      <created>1773701922303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773701922303</updated>
+    </task>
+    <task id="LOCAL-00004" summary="c">
+      <option name="closed" value="true" />
+      <created>1773702424736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773702424736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="c">
+      <option name="closed" value="true" />
+      <created>1773702492401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773702492401</updated>
+    </task>
+    <task id="LOCAL-00006" summary="c">
+      <option name="closed" value="true" />
+      <created>1773702998768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773702998768</updated>
+    </task>
+    <task id="LOCAL-00007" summary="c">
+      <option name="closed" value="true" />
+      <created>1773703413103</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773703413103</updated>
+    </task>
+    <task id="LOCAL-00008" summary="c">
+      <option name="closed" value="true" />
+      <created>1773703532610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773703532610</updated>
+    </task>
+    <task id="LOCAL-00009" summary="c">
+      <option name="closed" value="true" />
+      <created>1773782192263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773782192263</updated>
+    </task>
+    <task id="LOCAL-00010" summary="c">
+      <option name="closed" value="true" />
+      <created>1773782223936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773782223936</updated>
+    </task>
+    <task id="LOCAL-00011" summary="c">
+      <option name="closed" value="true" />
+      <created>1773782360092</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1773782360092</updated>
+    </task>
+    <task id="LOCAL-00012" summary="c">
+      <option name="closed" value="true" />
+      <created>1775244099582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775244099582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/pages/home/header/Header.js</url>
+          <line>199</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
