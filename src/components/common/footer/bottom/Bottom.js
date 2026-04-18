@@ -113,14 +113,14 @@ const Bottom = () => {
                                         biuro@ems.house
                                     </a>
 
-                                    <button
-                                        onClick={() =>
-                                            scrollToSection('kontakt')
-                                        }
-                                        className="cursor-pointer text-[#FFFFFF80] text-[clamp(13px,2vw,15px)] font-normal leading-normal tracking-[0.15px] transition-colors duration-200 hover:text-[#FFFFFFCC] text-left"
+                                    <a
+                                        href="https://calendly.com/slawasc/30min"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-[#FFFFFF80] text-[clamp(13px,2vw,15px)] font-normal leading-normal tracking-[0.15px] transition-colors duration-200 hover:text-[#FFFFFFCC]"
                                     >
                                         Umów rozmowę
-                                    </button>
+                                    </a>
                                 </address>
                             </div>
 

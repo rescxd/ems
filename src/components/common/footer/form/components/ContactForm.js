@@ -86,6 +86,15 @@ const ContactForm = () => {
                                         placeholder="Numer telefonu"
                                         required
                                         autoComplete="tel"
+                                        onKeyDown={(e) => {
+                                            if (!/[\d]/.test(e.key) && !['Backspace','Delete','ArrowLeft','ArrowRight','Tab'].includes(e.key)) {
+                                                e.preventDefault();
+                                            }
+                                        }}
+                                        onPaste={(e) => {
+                                            const text = e.clipboardData.getData('text');
+                                            if (!/^\d+$/.test(text)) e.preventDefault();
+                                        }}
                                         className="px-[22px] py-[13.5px] bg-[#FFFFFF0D] placeholder-[#FFFFFF59] text-[#FFFFFF] text-[clamp(13px,2vw,15px)] font-normal leading-[28px] tracking-[0.15px] w-full"
                                     />
                                 </div>

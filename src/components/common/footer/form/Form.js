@@ -6,7 +6,7 @@ import ContactForm from '@/components/common/footer/form/components/ContactForm'
 
 const tabs = [{ label: 'Formularz kontaktowy' }, { label: 'Umów rozmowę' }];
 
-const CAL_URL = 'https://cal.com';
+const CAL_URL = 'https://calendly.com/slawasc/30min';
 
 const Form = () => {
     const [activeIndex, setActiveIndex] = useState(0);

@@ -154,7 +154,7 @@ const Navbar = () => {
                                         </CustomButton>
                                     </Link>
                                     <Link
-                                        href="https://cal.com"
+                                        href="https://calendly.com/slawasc/30min"
                                         target="_blank"
                                     >
                                         <CustomButton className="px-[26px] py-[11.5px] bg-[#279EFF] rounded-[4px]">
@@ -249,7 +249,7 @@ const Navbar = () => {
                                         </CustomButton>
                                     </Link>
                                     <Link
-                                        href="https://cal.com"
+                                        href="https://calendly.com/slawasc/30min"
                                         target="_blank"
                                         onClick={closeNav}
                                     >

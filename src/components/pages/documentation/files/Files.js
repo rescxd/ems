@@ -43,9 +43,7 @@ const Files = () => {
                 </div>
                 <div className="md:max-w-[480px]">
                     <p className="text-[#262626CC] text-[clamp(14px,2vw,17px)] font-normal leading-[28px] xl:leading-[34px] tracking-[0.17px]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Maecenas felis dolor, luctus vel dapibus id,
-                        condimentum.
+                        Tu znajdziesz wszystkie najważniejsze pliki oraz dokumentację dotyczącą strony EMS.HOUSE oraz naszych produktów.
                     </p>
                 </div>
             </div>

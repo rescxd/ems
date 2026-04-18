@@ -27,11 +27,7 @@ const Bottom = () => {
                 <div className="">
                     <CustomButton
                         className="lg:max-w-[320px] lg:min-w-[320px] w-full px-[32px] py-[22px] bg-[#262626]"
-                        onClick={() =>
-                            document
-                                .getElementById('kontakt')
-                                ?.scrollIntoView({ behavior: 'smooth' })
-                        }
+                        onClick={() => window.open('https://calendly.com/slawasc/30min', '_blank')}
                     >
                         <div className="flex items-center justify-between gap-[16px]">
                             <span className="text-[#FFFFFF] text-[clamp(14px,2vw,16px)] font-medium grotesk leading-normal tracking-[0.16px]">

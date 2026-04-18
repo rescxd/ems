@@ -62,7 +62,12 @@ const Header = () => {
                     <div className="max-w-full xl:max-w-[920px] flex flex-col gap-[50px] md:gap-[70px] xl:gap-[110px] 2xl:gap-[130px]">
                         <div className="flex flex-col gap-[32px] max-w-[820px]">
                             <div className="flex flex-col gap-[32px]">
-                                <div className="w-fit p-[4px] border border-[#2626261A] rounded-[4px] flex items-center gap-[12px]">
+                                <a
+                                    href="https://calendly.com/slawasc/30min"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-fit p-[4px] border border-[#2626261A] rounded-[4px] flex items-center gap-[12px] cursor-pointer transition-colors duration-200 hover:bg-[#0000000A]"
+                                >
                                     <div>
                                         <Image
                                             src={ownerImage}
@@ -73,7 +78,7 @@ const Header = () => {
                                         Umów rozmowę z właścicielem firmy już
                                         dziś!
                                     </p>
-                                </div>
+                                </a>
                                 <div className="flex flex-col gap-[22px]">
                                     <h1 className="text-[#262626] text-[clamp(28px,5vw,62px)] grotesk font-medium leading-[120%] tracking-[-1.86px]">
                                         System zarządzania energią <br />
@@ -96,13 +101,7 @@ const Header = () => {
                             >
                                 <CustomButton
                                     className="w-full lg:w-[320px] px-[32px] py-[21px] border bg-[#262626]"
-                                    onClick={() =>
-                                        document
-                                            .getElementById('kontakt')
-                                            ?.scrollIntoView({
-                                                behavior: 'smooth',
-                                            })
-                                    }
+                                    onClick={() => window.open('https://calendly.com/slawasc/30min', '_blank')}
                                 >
                                     <div className="flex items-center justify-between gap-[16px]">
                                         <span className="text-[#FFFFFF] text-[clamp(14px,2vw,16px)] font-medium grotesk leading-normal tracking-[0.16px]">
