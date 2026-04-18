@@ -1,8 +1,44 @@
+'use client';
+
+import { useState } from 'react';
 import CustomButton from '@/components/common/buttons/CustomButton';
 
 const ContactForm = () => {
-    const handleSubmit = (e) => {
+    const [status, setStatus] = useState('idle'); // idle | loading | success | error
+    const [errorMsg, setErrorMsg] = useState('');
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
+        setStatus('loading');
+        setErrorMsg('');
+
+        const form = e.target;
+        const data = {
+            name: form.name.value,
+            phone: form.phone.value,
+            email: form.email.value,
+            message: form.message.value,
+        };
+
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data),
+            });
+
+            if (!res.ok) {
+                const json = await res.json();
+                throw new Error(json.error || 'Błąd serwera.');
+            }
+
+            setStatus('success');
+            form.reset();
+            setTimeout(() => setStatus('idle'), 5000);
+        } catch (err) {
+            setErrorMsg(err.message);
+            setStatus('error');
+        }
     };
 
     return (
@@ -101,12 +137,18 @@ const ContactForm = () => {
                     </fieldset>
                 </div>
                 <div className="flex flex-col gap-[16px]">
+                    {status === 'error' && (
+                        <p className="text-red-400 text-[clamp(13px,2vw,15px)] grotesk font-medium text-center">
+                            {errorMsg || 'Coś poszło nie tak. Spróbuj ponownie.'}
+                        </p>
+                    )}
                     <CustomButton
                         type="submit"
-                        className="w-full px-[32px] py-[16px] bg-[#FFFFFF]"
+                        disabled={status === 'loading' || status === 'success'}
+                        className={`w-full px-[32px] py-[16px] transition-colors duration-300 disabled:opacity-80 ${status === 'success' ? 'bg-green-500' : 'bg-[#FFFFFF]'}`}
                     >
-                        <span className="text-[#262626] text-[clamp(14px,2vw,16px)] grotesk font-medium leading-normal tracking-[0.16px]">
-                            Wyślij wiadomość
+                        <span className={`text-[clamp(14px,2vw,16px)] grotesk font-medium leading-normal tracking-[0.16px] ${status === 'success' ? 'text-white' : 'text-[#262626]'}`}>
+                            {status === 'loading' ? 'Wysyłanie...' : status === 'success' ? 'Wiadomość została wysłana' : 'Wyślij wiadomość'}
                         </span>
                     </CustomButton>
                     <p className="text-[#FFFFFF80] text-[clamp(12px,2vw,14px)] font-normal grotesk leading-[22px] tracking-[0.14px]">
