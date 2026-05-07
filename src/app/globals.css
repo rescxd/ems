@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+@utility container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1654px;
+  width: 100%;
+}
+
+@theme {
+  --breakpoint-3xl: 106.25rem;
+  --breakpoint-4xl: 109rem;
+}
+
+
+:root {
+  scroll-padding-top: 5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+
+* {
+  font-family: 'Inter';
+  outline: none;
+  scrollbar-width: thin;
+  scrollbar-color: #252525 #f1f1f1;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+
+
+.grotesk {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.about-gradient {
+  display: inline-block;
+  background: linear-gradient(266deg, rgba(38, 38, 38, 0.85) 30.9%, #262626 67.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.solutions-text-gradient {
+  background: linear-gradient(266deg, rgba(255, 255, 255, 0.85) 30.9%, #FFF 67.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.types-gradient {
+  background: linear-gradient(248deg, rgba(247, 248, 249, 0.25) 32.42%, #F7F8F9 74.3%);
+}
+
+.contact-bg-gradient {
+  background: linear-gradient(180deg, rgba(37, 37, 37, 0.00) 0%, #252525 100%);
+}
+@theme {
+  --animate-marquee: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
