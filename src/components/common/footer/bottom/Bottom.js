@@ -143,17 +143,17 @@ const Bottom = () => {
                                         </li>
                                         <li>
                                             <p className="text-[#FFFFFF80] text-[clamp(13px,2vw,15px)] font-normal leading-normal tracking-[0.15px]">
-                                                NIP: 9562392607
+                                                NIP: 9562393469
                                             </p>
                                         </li>
                                         <li>
                                             <p className="text-[#FFFFFF80] text-[clamp(13px,2vw,15px)] font-normal leading-normal tracking-[0.15px]">
-                                                REGON: 528405478
+                                                REGON: 528728158
                                             </p>
                                         </li>
                                         <li>
                                             <p className="text-[#FFFFFF80] text-[clamp(13px,2vw,15px)] font-normal leading-normal tracking-[0.15px]">
-                                                KRS: 0001101236
+                                                KRS: 0001107296
                                             </p>
                                         </li>
                                     </ul>
